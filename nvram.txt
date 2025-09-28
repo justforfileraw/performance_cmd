@@ -1,8 +1,8 @@
 // Script File Name : nvram.txt
-// Created on 09/20/25 at 15:21:29    
+// Created on 09/28/25 at 13:35:40    
 // AMISCE Utility. Ver 5.05.01.0002
 // Copyright (c) 2021 AMI. All rights reserved.
-HIICrc32= 84E07080
+HIICrc32= 5035835B
 
 Setup Question	= Reset NVRAM
 Help String	= Set this option to reset NVRAM to default values
@@ -45690,7 +45690,7 @@ Options	=*[00]Auto	// Move "*" to the desired Option
          [01] + 
          [02] - 
 
-Setup Question	= CPU Core Voltage Offset          0.996V
+Setup Question	= CPU Core Voltage Offset          0.980V
 Help String	= Set the offset values for these voltages.
 Token	=2926	// Do NOT change this line
 Offset	=CB6
@@ -45708,7 +45708,7 @@ Options	=*[00]Auto	// Move "*" to the desired Option
          [02]Override Mode
          [03]Offset Mode
 
-Setup Question	= CPU Core Voltage                 0.996V
+Setup Question	= CPU Core Voltage                 0.980V
 Help String	= Sets the CPU Core voltage, default value is dynamic VID. If set to "Auto", BIOS will set these voltages automatically or you can set it manually.  Max: 1.720V   Min: 0.600V
 Token	=2922	// Do NOT change this line
 Offset	=CB3
@@ -45726,7 +45726,7 @@ Value	=<0>
 //         [01] + 
 //         [02] - 
 
-// Setup Question	= CPU Core Voltage Offset          0.996V
+// Setup Question	= CPU Core Voltage Offset          0.980V
 // Help String	= Set the offset values for these voltages.
 // Token	=2924	// Do NOT change this line
 // Offset	=CB6
@@ -45816,7 +45816,7 @@ Options	=*[00]Auto	// Move "*" to the desired Option
          [02]Override Mode
          [03]Offset Mode
 
-Setup Question	= CPU SA Voltage                   0.904V
+Setup Question	= CPU SA Voltage                   0.888V
 Help String	= Sets the CPU SA voltage, default value is dynamic VID. If set to "Auto", BIOS will set these voltages automatically or you can set it manually.  Max: 1.600V   Min: 0.600V
 Token	=292C	// Do NOT change this line
 Offset	=CBF
@@ -45834,7 +45834,7 @@ Options	=*[00]Auto	// Move "*" to the desired Option
          [01] + 
          [02] - 
 
-Setup Question	= CPU SA Voltage Offset            0.904V
+Setup Question	= CPU SA Voltage Offset            0.888V
 Help String	= Set the offset values for these voltages.
 Token	=292E	// Do NOT change this line
 Offset	=CC2
@@ -45850,7 +45850,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= CPU VDD2 Voltage                 1.120V
+Setup Question	= CPU VDD2 Voltage                 1.116V
 Help String	= Sets the CPU VDD2 voltage, default value is 1.120V.  If set to "Auto", BIOS will set   these voltages automatically or you can set it manually.  Max: 2.200V  Min: 0.850V
 Token	=11E2	// Do NOT change this line
 Offset	=124C
@@ -45906,7 +45906,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= Eventual DRAM Voltage            1.120V
+Setup Question	= Eventual DRAM Voltage            1.116V
 Help String	= Set Eventual DRAM Voltage item.
 Token	=11E9	// Do NOT change this line
 Offset	=FBF
@@ -47698,9 +47698,9 @@ Token	=12BB	// Do NOT change this line
 Offset	=E5E
 Width	=01
 BIOS Default	=[00]Auto 
-Options	=*[00]Auto	// Move "*" to the desired Option
+Options	=[00]Auto	// Move "*" to the desired Option
          [01]Disabled
-         [02]Enabled
+         *[02]Enabled
 
 Setup Question	= [*]Drv Vref Configuration
 Help String	= Drv Vref Configuration
