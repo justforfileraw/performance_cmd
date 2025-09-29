@@ -6646,8 +6646,8 @@ Token	=2F3	// Do NOT change this line
 Offset	=7B
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=*[00]Disabled	// Move "*" to the desired Option
-         [01]Enabled
+Options	=[00]Disabled	// Move "*" to the desired Option
+         *[01]Enabled
 
 Setup Question	= Disable VR Thermal Alert
 Help String	= Enable/Disable VR Thermal Alert
@@ -12202,8 +12202,8 @@ Token	=559	// Do NOT change this line
 Offset	=CB
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	=   Snoop Latency Override
 Help String	= Snoop Latency Override for SA PCIE.  Disabled: Disable override.  Manual: Manually enter override values.  Auto (default): Maintain default BIOS flow.
@@ -23465,8 +23465,8 @@ Token	=983	// Do NOT change this line
 Offset	=345
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	=   FER
 Help String	= PCI Express Device Fatal Error Reporting Enable/Disable.
@@ -23474,8 +23474,8 @@ Token	=984	// Do NOT change this line
 Offset	=349
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	=   NFER
 Help String	= PCI Express Device Non-Fatal Error Reporting Enable/Disable.
@@ -23483,8 +23483,8 @@ Token	=985	// Do NOT change this line
 Offset	=34D
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	=   CER
 Help String	= PCI Express Device Correctable Error Reporting Enable/Disable.
@@ -23492,8 +23492,8 @@ Token	=986	// Do NOT change this line
 Offset	=351
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	=   CTO
 Help String	= PCI Express Completion Timer TO Enable/Disable.
@@ -23784,8 +23784,8 @@ Token	=9A5	// Do NOT change this line
 Offset	=2AA
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	= L1 Substates
 Help String	= PCI Express L1 Substates settings.L1SS cannot be enabled when CLKREQMSG is disabled
@@ -23793,9 +23793,9 @@ Token	=279A	// Do NOT change this line
 Offset	=37E
 Width	=01
 BIOS Default	=[02]L1.1 & L1.2 
-Options	=[00]Disabled	// Move "*" to the desired Option
+Options	=*[00]Disabled	// Move "*" to the desired Option
          [01]L1.1
-         *[02]L1.1 & L1.2
+         [02]L1.1 & L1.2
 
 Setup Question	= Gen3 Eq Phase3 Method
 Help String	= PCIe Gen3 Equalization Phase 3 Method
@@ -24197,8 +24197,8 @@ Token	=9CE	// Do NOT change this line
 Offset	=2AB
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	= L1 Substates
 Help String	= PCI Express L1 Substates settings.L1SS cannot be enabled when CLKREQMSG is disabled
@@ -24206,9 +24206,9 @@ Token	=279E	// Do NOT change this line
 Offset	=37F
 Width	=01
 BIOS Default	=[02]L1.1 & L1.2 
-Options	=[00]Disabled	// Move "*" to the desired Option
+Options	=*[00]Disabled	// Move "*" to the desired Option
          [01]L1.1
-         *[02]L1.1 & L1.2
+         [02]L1.1 & L1.2
 
 Setup Question	= Gen3 Eq Phase3 Method
 Help String	= PCIe Gen3 Equalization Phase 3 Method
@@ -50753,9 +50753,9 @@ Token	=142C	// Do NOT change this line
 Offset	=F04
 Width	=01
 BIOS Default	=[00]Auto 
-Options	=*[00]Auto	// Move "*" to the desired Option
+Options	=[00]Auto	// Move "*" to the desired Option
          [01]Disabled
-         [02]Enabled
+         *[02]Enabled
 
 Setup Question	= Read Timing Centering 1D JR
 Help String	= Read Timing Centering 1D JR Training
@@ -50773,9 +50773,9 @@ Token	=142E	// Do NOT change this line
 Offset	=F06
 Width	=01
 BIOS Default	=[00]Auto 
-Options	=*[00]Auto	// Move "*" to the desired Option
+Options	=[00]Auto	// Move "*" to the desired Option
          [01]Disabled
-         [02]Enabled
+         *[02]Enabled
 
 Setup Question	= Retrain Margin Check
 Help String	= Retrain Margin Check
