@@ -15257,8 +15257,8 @@ Token	=696	// Do NOT change this line
 Offset	=217
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	= Turn Around Timing Training
 Help String	= Turn Around Timing Training
@@ -15266,8 +15266,8 @@ Token	=697	// Do NOT change this line
 Offset	=218
 Width	=01
 BIOS Default	=[00]Disabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	= CMD CTL CLK Slew Rate
 Help String	= CMD CTL CLK Slew Rate
@@ -44289,8 +44289,8 @@ Token	=295C	// Do NOT change this line
 Offset	=E65
 Width	=01
 BIOS Default	=[00]Disabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Profile 1
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Profile 1
          [02]Profile 2
 
 Setup Question	= iEXPO
@@ -50754,8 +50754,8 @@ Offset	=F04
 Width	=01
 BIOS Default	=[00]Auto 
 Options	=[00]Auto	// Move "*" to the desired Option
-         [01]Disabled
-         *[02]Enabled
+         *[01]Disabled
+         [02]Enabled
 
 Setup Question	= Read Timing Centering 1D JR
 Help String	= Read Timing Centering 1D JR Training
@@ -50774,8 +50774,8 @@ Offset	=F06
 Width	=01
 BIOS Default	=[00]Auto 
 Options	=[00]Auto	// Move "*" to the desired Option
-         [01]Disabled
-         *[02]Enabled
+         *[01]Disabled
+         [02]Enabled
 
 Setup Question	= Retrain Margin Check
 Help String	= Retrain Margin Check
