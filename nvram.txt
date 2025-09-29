@@ -5922,8 +5922,8 @@ Token	=2AC	// Do NOT change this line
 Offset	=2F6
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	= RFI Spread Spectrum
 Help String	= Set the Spread Spectrum
@@ -5931,9 +5931,9 @@ Token	=2AD	// Do NOT change this line
 Offset	=1FB
 Width	=01
 BIOS Default	=[08]1.5% 
-Options	=[00]0.5%	// Move "*" to the desired Option
+Options	=*[00]0.5%	// Move "*" to the desired Option
          [03]1%
-         *[08]1.5%
+         [08]1.5%
          [12]2%
          [1C]3%
          [22]4%
@@ -13566,9 +13566,9 @@ Token	=5E6	// Do NOT change this line
 Offset	=42F
 Width	=01
 BIOS Default	=[00]Auto 
-Options	=*[00]Auto	// Move "*" to the desired Option
+Options	=[00]Auto	// Move "*" to the desired Option
          [01]Enabled
-         [02]Disabled
+         *[02]Disabled
 
 Setup Question	= SAM Overlaoding
 Help String	= Enable: copy the sagv frequency point. Disable: not copy.
@@ -48368,11 +48368,11 @@ Token	=130E	// Do NOT change this line
 Offset	=F21
 Width	=01
 BIOS Default	=[FF]Auto 
-Options	=[00]Disabled	// Move "*" to the desired Option
+Options	=*[00]Disabled	// Move "*" to the desired Option
          [01]APD
          [02]PPD
          [06]PPD DLL Off
-         *[FF]Auto
+         [FF]Auto
 
 Setup Question	= PDWN Idle Counter            1023
 Help String	= Set PDWN Idle Counter item.
