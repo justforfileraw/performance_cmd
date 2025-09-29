@@ -1,8 +1,8 @@
 // Script File Name : nvram.txt
-// Created on 09/28/25 at 13:35:40    
+// Created on 09/29/25 at 15:21:07    
 // AMISCE Utility. Ver 5.05.01.0002
 // Copyright (c) 2021 AMI. All rights reserved.
-HIICrc32= 5035835B
+HIICrc32= 9AD2083
 
 Setup Question	= Reset NVRAM
 Help String	= Set this option to reset NVRAM to default values
@@ -24188,8 +24188,8 @@ Token	=279D	// Do NOT change this line
 Offset	=2A7
 Width	=01
 BIOS Default	=[01]Enabled 
-Options	=[00]Disabled	// Move "*" to the desired Option
-         *[01]Enabled
+Options	=*[00]Disabled	// Move "*" to the desired Option
+         [01]Enabled
 
 Setup Question	= PCI Express Power Gating
 Help String	= PCI Express Power Gating Enable/Disable for each root port.
