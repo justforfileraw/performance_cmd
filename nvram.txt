@@ -1,8 +1,8 @@
 // Script File Name : nvram.txt
-// Created on 09/29/25 at 15:21:07    
+// Created on 10/02/25 at 19:47:22    
 // AMISCE Utility. Ver 5.05.01.0002
 // Copyright (c) 2021 AMI. All rights reserved.
-HIICrc32= 9AD2083
+HIICrc32= DDF09971
 
 Setup Question	= Reset NVRAM
 Help String	= Set this option to reset NVRAM to default values
@@ -41921,8 +41921,8 @@ Help String	= Sets the system boot order
 Token	=2080	// Do NOT change this line
 Offset	=1131
 Width	=02
-BIOS Default	=[00]UEFI Hard Disk 
-Options	=*[00]UEFI Hard Disk	// Move "*" to the desired Option
+BIOS Default	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30 
+Options	=*[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -41937,7 +41937,7 @@ Token	=2081	// Do NOT change this line
 Offset	=1133
 Width	=02
 BIOS Default	=[01]UEFI CD/DVD 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          *[02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -41952,7 +41952,7 @@ Token	=2082	// Do NOT change this line
 Offset	=1135
 Width	=02
 BIOS Default	=[02]UEFI USB Hard Disk 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -41967,7 +41967,7 @@ Token	=2083	// Do NOT change this line
 Offset	=1137
 Width	=02
 BIOS Default	=[03]UEFI USB CD/DVD 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -41982,7 +41982,7 @@ Token	=2084	// Do NOT change this line
 Offset	=1139
 Width	=02
 BIOS Default	=[04]UEFI USB Key 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          *[01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -41997,7 +41997,7 @@ Token	=2085	// Do NOT change this line
 Offset	=113B
 Width	=02
 BIOS Default	=[05]UEFI USB Floppy 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          *[03]UEFI USB CD/DVD
@@ -42012,7 +42012,7 @@ Token	=2086	// Do NOT change this line
 Offset	=113D
 Width	=02
 BIOS Default	=[06]UEFI Network 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42131,8 +42131,8 @@ Help String	= Sets the system boot order
 Token	=2100	// Do NOT change this line
 Offset	=1151
 Width	=02
-BIOS Default	=[00]UEFI Hard Disk 
-Options	=*[00]UEFI Hard Disk	// Move "*" to the desired Option
+BIOS Default	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30 
+Options	=*[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42153,7 +42153,7 @@ Token	=2101	// Do NOT change this line
 Offset	=1153
 Width	=02
 BIOS Default	=[01]UEFI CD/DVD 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          *[01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42174,7 +42174,7 @@ Token	=2102	// Do NOT change this line
 Offset	=1155
 Width	=02
 BIOS Default	=[02]UEFI USB Hard Disk 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          *[02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42195,7 +42195,7 @@ Token	=2103	// Do NOT change this line
 Offset	=1157
 Width	=02
 BIOS Default	=[03]UEFI USB CD/DVD 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          *[03]UEFI USB CD/DVD
@@ -42216,7 +42216,7 @@ Token	=2104	// Do NOT change this line
 Offset	=1159
 Width	=02
 BIOS Default	=[04]UEFI USB Key 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42237,7 +42237,7 @@ Token	=2105	// Do NOT change this line
 Offset	=115B
 Width	=02
 BIOS Default	=[05]UEFI Network 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42258,7 +42258,7 @@ Token	=2106	// Do NOT change this line
 Offset	=115D
 Width	=02
 BIOS Default	=[06]Hard Disk 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42279,7 +42279,7 @@ Token	=2107	// Do NOT change this line
 Offset	=115F
 Width	=02
 BIOS Default	=[07]CD/DVD 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42300,7 +42300,7 @@ Token	=2108	// Do NOT change this line
 Offset	=1161
 Width	=02
 BIOS Default	=[08]USB Hard Disk 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42321,7 +42321,7 @@ Token	=2109	// Do NOT change this line
 Offset	=1163
 Width	=02
 BIOS Default	=[09]USB CD/DVD 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42342,7 +42342,7 @@ Token	=210A	// Do NOT change this line
 Offset	=1165
 Width	=02
 BIOS Default	=[0A]USB Key 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42363,7 +42363,7 @@ Token	=210B	// Do NOT change this line
 Offset	=1167
 Width	=02
 BIOS Default	=[0B]USB Floppy 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -42384,7 +42384,7 @@ Token	=210C	// Do NOT change this line
 Offset	=1169
 Width	=02
 BIOS Default	=[0C]Network 
-Options	=[00]UEFI Hard Disk	// Move "*" to the desired Option
+Options	=[00]UEFI Hard Disk:Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
          [01]UEFI CD/DVD
          [02]UEFI USB Hard Disk
          [03]UEFI USB CD/DVD
@@ -43641,8 +43641,8 @@ Token	=29A9	// Do NOT change this line
 Offset	=F88
 Width	=01
 BIOS Default	=[01]Intel Default Settings (PL1: 58W) 
-Options	=[01]Intel Default Settings (PL1: 58W)	// Move "*" to the desired Option
-         *[02]MSI Performance Settings (PL1: 135W)
+Options	=*[01]Intel Default Settings (PL1: 58W)	// Move "*" to the desired Option
+         [02]MSI Performance Settings (PL1: 135W)
          [03]MSI Unlimited Settings (PL1: 135W)
 
 Setup Question	= P-Core Ratio Apply Mode
@@ -44289,9 +44289,9 @@ Token	=295C	// Do NOT change this line
 Offset	=E65
 Width	=01
 BIOS Default	=[00]Disabled 
-Options	=*[00]Disabled	// Move "*" to the desired Option
+Options	=[00]Disabled	// Move "*" to the desired Option
          [01]Profile 1
-         [02]Profile 2
+         *[02]Profile 2
 
 Setup Question	= iEXPO
 Help String	= Select and load memory profile with optimized timing and voltage settings supported by installed memory module.
@@ -45842,7 +45842,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= CPU VDDQ Voltage                 1.200V
+Setup Question	= CPU VDDQ Voltage                 1.100V
 Help String	= Sets the CPU VDDQ Voltage.
 Token	=11E1	// Do NOT change this line
 Offset	=F10
@@ -45941,7 +45941,7 @@ BIOS Default	=[01]Link
 Options	=*[01]Link	// Move "*" to the desired Option
          [02]Unlink
 
-Setup Question	= DRAM Voltage                     1.250V
+Setup Question	= DRAM Voltage                     1.100V
 Help String	= Support 1.435V Up       Sets the DRAM voltage, default value is 1.100V. If set to "Auto", BIOS will set these voltages automatically or you can set it manually.
 Token	=29AE	// Do NOT change this line
 Offset	=F8F
@@ -45949,7 +45949,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= DRAM VDDQ Voltage                1.250V
+Setup Question	= DRAM VDDQ Voltage                1.100V
 Help String	= Support 1.435V Up       Sets the DRAM VDDQ voltage, default value is 1.100V. If set to "Auto", BIOS will set these voltages automatically or you can set it manually.
 Token	=11EA	// Do NOT change this line
 Offset	=F99
@@ -45965,7 +45965,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= DRAM DIMMA1 Voltage              1.250V
+Setup Question	= DRAM DIMMA1 Voltage              1.100V
 Help String	= Support 1.435V Up       Sets the DRAM DIMMA1 voltage, default value is 1.100V. If set to "Auto", BIOS will set these voltages automatically or you can set it manually.
 Token	=11EC	// Do NOT change this line
 Offset	=F91
@@ -45981,7 +45981,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= DRAM DIMMB1 Voltage              1.250V
+Setup Question	= DRAM DIMMB1 Voltage              1.100V
 Help String	= Support 1.435V Up       Sets the DRAM DIMMB1 voltage, default value is 1.100V. If set to "Auto", BIOS will set these voltages automatically or you can set it manually.
 Token	=11EE	// Do NOT change this line
 Offset	=F95
@@ -45997,7 +45997,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= DRAM DIMMA1 VDDQ Voltage         1.250V
+Setup Question	= DRAM DIMMA1 VDDQ Voltage         1.100V
 Help String	= Support 1.435V Up       Sets the DRAM DIMMA1 VDDQ voltage, default value is 1.100V. If set to "Auto", BIOS will set these voltages automatically or you can set it manually.
 Token	=11F0	// Do NOT change this line
 Offset	=F9B
@@ -46013,7 +46013,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= DRAM DIMMB1 VDDQ Voltage         1.250V
+Setup Question	= DRAM DIMMB1 VDDQ Voltage         1.100V
 Help String	= Support 1.435V Up       Sets the DRAM DIMMB1 VDDQ voltage, default value is 1.100V. If set to "Auto", BIOS will set these voltages automatically or you can set it manually.
 Token	=11F2	// Do NOT change this line
 Offset	=F9F
@@ -46163,7 +46163,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tCL                          40
+Setup Question	= tCL                          38
 Help String	= CAS Latency (CL) is Column Address Strobe latency.   It isthe clock cycle required to access and read a particular column in the current row.   If you set this item smaller, system will run faster but might be more unstable.  Please set it depends on memory module.
 Token	=1206	// Do NOT change this line
 Offset	=D48
@@ -46171,7 +46171,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRCD                         40
+Setup Question	= tRCD                         38
 Help String	= tRCD is Timing of RAS to CAS Delay.   It is the clock cycle delay between activating Row Address Strobe   and the start to read Column Address Strobe.   If you set this item smaller,system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1207	// Do NOT change this line
 Offset	=D4A
@@ -46187,7 +46187,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRP                          40
+Setup Question	= tRP                          38
 Help String	= tRP is Timing of RAS Precharge;   the clock cycle time required to switch from one Row Address to the next Row Address,   for example, switch internal memory banks.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1209	// Do NOT change this line
 Offset	=D4C
@@ -46195,7 +46195,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRAS                         80
+Setup Question	= tRAS                         70
 Help String	= tRAS is Timing of Row Address Strobe;   the timing of active to precharge delay between the precharge   and activation of row data access.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=120A	// Do NOT change this line
 Offset	=D4E
@@ -46203,7 +46203,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRFC1                        764
+Setup Question	= tRFC1                        706
 Help String	= tRFC is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=120B	// Do NOT change this line
 Offset	=E24
@@ -46211,7 +46211,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRFC2                        415
+Setup Question	= tRFC2                        383
 Help String	= tRFC is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=120C	// Do NOT change this line
 Offset	=D50
@@ -46227,7 +46227,7 @@ Width	=01
 BIOS Default	=1 
 Value	=1	// Enabled = 1, Disabled = 0
 
-Setup Question	= tRFCPB                       337
+Setup Question	= tRFCPB                       311
 Help String	= tRFCPB
 Token	=120E	// Do NOT change this line
 Offset	=E3A
@@ -46235,7 +46235,7 @@ Width	=04
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tREFI                        5079
+Setup Question	= tREFI                        4688
 Help String	= tREFI is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=120F	// Do NOT change this line
 Offset	=E1A
@@ -46243,7 +46243,7 @@ Width	=04
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tREFI                        5079
+Setup Question	= tREFI                        4688
 Help String	= tREFI is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1210	// Do NOT change this line
 Offset	=D82
@@ -46251,7 +46251,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWR                          78
+Setup Question	= tWR                          72
 Help String	= tWR is Timing of Write Revocer;   the timing between effective write action and precharge the memory bank   to make sure data can write properly.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1211	// Do NOT change this line
 Offset	=D52
@@ -46267,7 +46267,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWR                          78
+Setup Question	= tWR                          72
 Help String	= tWR is Timing of Write Revocer;   the timing between effective write action and precharge the memory bank   to make sure data can write properly.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1213	// Do NOT change this line
 Offset	=DAA
@@ -46275,7 +46275,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWR_MR                       78
+Setup Question	= tWR_MR                       72
 Help String	= tWR_MR is Timing of Write Revocer at DRAM side.
 Token	=1214	// Do NOT change this line
 Offset	=EBF
@@ -46283,7 +46283,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWTR                         7
+Setup Question	= tWTR                         6
 Help String	= tWTR is Write to Read Delay;   the timing delay between write command and next read command at same memory bank arena.   It will affect read/write speed.   If you set this item smaller, system will run faster but might be more unstable .  Please set it depends on memory module.
 Token	=1215	// Do NOT change this line
 Offset	=D54
@@ -46291,7 +46291,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWTR_L                       26
+Setup Question	= tWTR_L                       24
 Help String	= DCLK delay from start of internal write transaction to internal read command.
 Token	=1216	// Do NOT change this line
 Offset	=D86
@@ -46307,7 +46307,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRRD_L                       13
+Setup Question	= tRRD_L                       12
 Help String	= ACTIVE to ACTIVE command period, different bank group.
 Token	=1218	// Do NOT change this line
 Offset	=D84
@@ -46315,7 +46315,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRTP                         19
+Setup Question	= tRTP                         17
 Help String	= tRTP is Read to Precharge Command Delay;   the delay timing between read command to precharge command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1219	// Do NOT change this line
 Offset	=D58
@@ -46331,7 +46331,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRTP                         20
+Setup Question	= tRTP                         18
 Help String	= tRTP is Read to Precharge Command Delay;   the delay timing between read command to precharge command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=121B	// Do NOT change this line
 Offset	=DAC
@@ -46339,7 +46339,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRTP_MR                      20
+Setup Question	= tRTP_MR                      18
 Help String	= tRTP_MR is Read to Precharge Command Delay at DRAM side.
 Token	=121C	// Do NOT change this line
 Offset	=EC0
@@ -46355,7 +46355,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tCWL                         38
+Setup Question	= tCWL                         36
 Help String	= DRAM CAS# Write Latency
 Token	=121E	// Do NOT change this line
 Offset	=D5C
@@ -46371,7 +46371,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tCKE                         20
+Setup Question	= tCKE                         18
 Help String	= CKE minimum pluse width.
 Token	=1220	// Do NOT change this line
 Offset	=D5E
@@ -46387,7 +46387,7 @@ Width	=02
 BIOS Default	=<15> 
 Value	=<15>
 
-Setup Question	= tCCD_L                       13
+Setup Question	= tCCD_L                       12
 Help String	= Back to back READ to READ CAS to CAS same bank group separation parameter.
 Token	=1222	// Do NOT change this line
 Offset	=D8A
@@ -46429,7 +46429,7 @@ Options	=*[00]Auto	// Move "*" to the desired Option
          [01]Fixed Mode
          [02]Dynamic Mode
 
-Setup Question	= tRDRDSG                      14
+Setup Question	= tRDRDSG                      12
 Help String	= Back to back READ to READ from different rank separation parameter.
 Token	=1227	// Do NOT change this line
 Offset	=D60
@@ -46525,7 +46525,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWRRDSG                      74
+Setup Question	= tWRRDSG                      70
 Help String	= Back to back WRITE to READ from different rank separation parameter.
 Token	=1233	// Do NOT change this line
 Offset	=D70
@@ -46533,7 +46533,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWRRDDG                      56
+Setup Question	= tWRRDDG                      52
 Help String	= Back to back WRITE to READ from different DIMM separation parameter.
 Token	=1234	// Do NOT change this line
 Offset	=D72
@@ -46581,7 +46581,7 @@ Width	=02
 BIOS Default	=<5> 
 Value	=<5>
 
-Setup Question	= tWRPRE                       124
+Setup Question	= tWRPRE                       116
 Help String	= tWRPRE
 Token	=123A	// Do NOT change this line
 Offset	=D90
@@ -46589,7 +46589,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRDPRE                       19
+Setup Question	= tRDPRE                       17
 Help String	= tRDPRE
 Token	=123B	// Do NOT change this line
 Offset	=DA8
@@ -46613,7 +46613,7 @@ Width	=01
 BIOS Default	=<2> 
 Value	=<2>
 
-Setup Question	= tXP                          20
+Setup Question	= tXP                          18
 Help String	= tXP
 Token	=123E	// Do NOT change this line
 Offset	=D80
@@ -46621,7 +46621,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tXPDLL                       63
+Setup Question	= tXPDLL                       58
 Help String	= tXPDLL
 Token	=123F	// Do NOT change this line
 Offset	=D92
@@ -46637,7 +46637,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRDPDEN                      48
+Setup Question	= tRDPDEN                      46
 Help String	= tRDPDEN
 Token	=1241	// Do NOT change this line
 Offset	=D96
@@ -46645,7 +46645,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWRPDEN                      124
+Setup Question	= tWRPDEN                      116
 Help String	= tWRPDEN
 Token	=1242	// Do NOT change this line
 Offset	=D98
@@ -46669,7 +46669,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tREFIx9                      44
+Setup Question	= tREFIx9                      40
 Help String	= tREFIx9
 Token	=1245	// Do NOT change this line
 Offset	=D9E
@@ -46693,7 +46693,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tMOD                         43
+Setup Question	= tMOD                         40
 Help String	= tMOD
 Token	=1248	// Do NOT change this line
 Offset	=DA4
@@ -46701,7 +46701,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tZQCS                        85
+Setup Question	= tZQCS                        78
 Help String	= tZQCS
 Token	=1249	// Do NOT change this line
 Offset	=DA6
@@ -46709,7 +46709,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tZQCAL                       1304
+Setup Question	= tZQCAL                       1203
 Help String	= tZQCAL
 Token	=124A	// Do NOT change this line
 Offset	=E52
@@ -46717,7 +46717,7 @@ Width	=04
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tXSR                         764
+Setup Question	= tXSR                         706
 Help String	= tXSR
 Token	=124B	// Do NOT change this line
 Offset	=E4A
@@ -46757,7 +46757,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tCKCKEH                      10
+Setup Question	= tCKCKEH                      9
 Help String	= tCKCKEH
 Token	=1250	// Do NOT change this line
 Offset	=E34
@@ -46773,7 +46773,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRFM                         337
+Setup Question	= tRFM                         311
 Help String	= tRFM
 Token	=1252	// Do NOT change this line
 Offset	=E42
@@ -46810,7 +46810,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tCL                          40
+Setup Question	= tCL                          38
 Help String	= CAS Latency (CL) is Column Address Strobe latency.   It isthe clock cycle required to access and read a particular column in the current row.   If you set this item smaller, system will run faster but might be more unstable.  Please set it depends on memory module.
 Token	=1256	// Do NOT change this line
 Offset	=DB2
@@ -46818,7 +46818,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRCD                         40
+Setup Question	= tRCD                         38
 Help String	= tRCD is Timing of RAS to CAS Delay.   It is the clock cycle delay between activating Row Address Strobe   and the start to read Column Address Strobe.   If you set this item smaller,system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1257	// Do NOT change this line
 Offset	=DB4
@@ -46834,7 +46834,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRP                          40
+Setup Question	= tRP                          38
 Help String	= tRP is Timing of RAS Precharge;   the clock cycle time required to switch from one Row Address to the next Row Address,   for example, switch internal memory banks.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1259	// Do NOT change this line
 Offset	=DB6
@@ -46842,7 +46842,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRAS                         80
+Setup Question	= tRAS                         70
 Help String	= tRAS is Timing of Row Address Strobe;   the timing of active to precharge delay between the precharge   and activation of row data access.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=125A	// Do NOT change this line
 Offset	=DB8
@@ -46850,7 +46850,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRFC1                        764
+Setup Question	= tRFC1                        706
 Help String	= tRFC is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=125B	// Do NOT change this line
 Offset	=E26
@@ -46858,7 +46858,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRFC2                        415
+Setup Question	= tRFC2                        383
 Help String	= tRFC is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=125C	// Do NOT change this line
 Offset	=DBA
@@ -46874,7 +46874,7 @@ Value	=<0>
 // BIOS Default	=1 
 // Value	=1	// Enabled = 1, Disabled = 0
 
-Setup Question	= tRFCPB                       337
+Setup Question	= tRFCPB                       311
 Help String	= tRFCPB
 Token	=125E	// Do NOT change this line
 Offset	=E3E
@@ -46882,7 +46882,7 @@ Width	=04
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tREFI                        5079
+Setup Question	= tREFI                        4688
 Help String	= tREFI is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=125F	// Do NOT change this line
 Offset	=E1E
@@ -46890,7 +46890,7 @@ Width	=04
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tREFI                        5079
+Setup Question	= tREFI                        4688
 Help String	= tREFI is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1260	// Do NOT change this line
 Offset	=DEC
@@ -46898,7 +46898,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWR                          78
+Setup Question	= tWR                          72
 Help String	= tWR is Timing of Write Revocer;   the timing between effective write action and precharge the memory bank   to make sure data can write properly.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1261	// Do NOT change this line
 Offset	=DBC
@@ -46914,7 +46914,7 @@ Value	=<0>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-Setup Question	= tWR                          78
+Setup Question	= tWR                          72
 Help String	= tWR is Timing of Write Revocer;   the timing between effective write action and precharge the memory bank   to make sure data can write properly.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1263	// Do NOT change this line
 Offset	=E14
@@ -46922,7 +46922,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-// Setup Question	= tWR_MR                       78
+// Setup Question	= tWR_MR                       72
 // Help String	= tWR_MR is Timing of Write Revocer at DRAM side.
 // Token	=1264	// Do NOT change this line
 // Offset	=EBF
@@ -46930,7 +46930,7 @@ Value	=<0>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-Setup Question	= tWTR                         7
+Setup Question	= tWTR                         6
 Help String	= tWTR is Write to Read Delay;   the timing delay between write command and next read command at same memory bank arena.   It will affect read/write speed.   If you set this item smaller, system will run faster but might be more unstable .  Please set it depends on memory module.
 Token	=1265	// Do NOT change this line
 Offset	=DBE
@@ -46938,7 +46938,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWTR_L                       26
+Setup Question	= tWTR_L                       24
 Help String	= DCLK delay from start of internal write transaction to internal read command.
 Token	=1266	// Do NOT change this line
 Offset	=DF0
@@ -46954,7 +46954,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRRD_L                       13
+Setup Question	= tRRD_L                       12
 Help String	= ACTIVE to ACTIVE command period, different bank group.
 Token	=1268	// Do NOT change this line
 Offset	=DEE
@@ -46962,7 +46962,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRTP                         19
+Setup Question	= tRTP                         17
 Help String	= tRTP is Read to Precharge Command Delay;   the delay timing between read command to precharge command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=1269	// Do NOT change this line
 Offset	=DC2
@@ -46978,7 +46978,7 @@ Value	=<0>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-Setup Question	= tRTP                         20
+Setup Question	= tRTP                         18
 Help String	= tRTP is Read to Precharge Command Delay;   the delay timing between read command to precharge command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 Token	=126B	// Do NOT change this line
 Offset	=E16
@@ -46986,7 +46986,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-// Setup Question	= tRTP_MR                      20
+// Setup Question	= tRTP_MR                      18
 // Help String	= tRTP_MR is Read to Precharge Command Delay at DRAM side.
 // Token	=126C	// Do NOT change this line
 // Offset	=EC0
@@ -47002,7 +47002,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tCWL                         38
+Setup Question	= tCWL                         36
 Help String	= DRAM CAS# Write Latency
 Token	=126E	// Do NOT change this line
 Offset	=DC6
@@ -47018,7 +47018,7 @@ Value	=<0>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-Setup Question	= tCKE                         20
+Setup Question	= tCKE                         18
 Help String	= CKE minimum pluse width.
 Token	=1270	// Do NOT change this line
 Offset	=DC8
@@ -47034,7 +47034,7 @@ Width	=02
 BIOS Default	=<15> 
 Value	=<15>
 
-Setup Question	= tCCD_L                       13
+Setup Question	= tCCD_L                       12
 Help String	= Back to back READ to READ CAS to CAS same bank group separation parameter.
 Token	=1272	// Do NOT change this line
 Offset	=DF4
@@ -47076,7 +47076,7 @@ Value	=<0>
 //         [01]Fixed Mode
 //         [02]Dynamic Mode
 
-Setup Question	= tRDRDSG                      14
+Setup Question	= tRDRDSG                      12
 Help String	= Back to back READ to READ from different rank separation parameter.
 Token	=1277	// Do NOT change this line
 Offset	=DCA
@@ -47172,7 +47172,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWRRDSG                      74
+Setup Question	= tWRRDSG                      70
 Help String	= Back to back WRITE to READ from different rank separation parameter.
 Token	=1283	// Do NOT change this line
 Offset	=DDA
@@ -47180,7 +47180,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWRRDDG                      56
+Setup Question	= tWRRDDG                      52
 Help String	= Back to back WRITE to READ from different DIMM separation parameter.
 Token	=1284	// Do NOT change this line
 Offset	=DDC
@@ -47228,7 +47228,7 @@ Width	=02
 BIOS Default	=<5> 
 Value	=<5>
 
-Setup Question	= tWRPRE                       124
+Setup Question	= tWRPRE                       116
 Help String	= tWRPRE
 Token	=128A	// Do NOT change this line
 Offset	=DFA
@@ -47236,7 +47236,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRDPRE                       19
+Setup Question	= tRDPRE                       17
 Help String	= tRDPRE
 Token	=128B	// Do NOT change this line
 Offset	=E12
@@ -47260,7 +47260,7 @@ Width	=01
 BIOS Default	=<2> 
 Value	=<2>
 
-Setup Question	= tXP                          20
+Setup Question	= tXP                          18
 Help String	= tXP
 Token	=128E	// Do NOT change this line
 Offset	=DEA
@@ -47268,7 +47268,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tXPDLL                       63
+Setup Question	= tXPDLL                       58
 Help String	= tXPDLL
 Token	=128F	// Do NOT change this line
 Offset	=DFC
@@ -47284,7 +47284,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRDPDEN                      48
+Setup Question	= tRDPDEN                      46
 Help String	= tRDPDEN
 Token	=1291	// Do NOT change this line
 Offset	=E00
@@ -47292,7 +47292,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tWRPDEN                      124
+Setup Question	= tWRPDEN                      116
 Help String	= tWRPDEN
 Token	=1292	// Do NOT change this line
 Offset	=E02
@@ -47316,7 +47316,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tREFIx9                      44
+Setup Question	= tREFIx9                      40
 Help String	= tREFIx9
 Token	=1295	// Do NOT change this line
 Offset	=E08
@@ -47340,7 +47340,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tMOD                         43
+Setup Question	= tMOD                         40
 Help String	= tMOD
 Token	=1298	// Do NOT change this line
 Offset	=E0E
@@ -47348,7 +47348,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tZQCS                        85
+Setup Question	= tZQCS                        78
 Help String	= tZQCS
 Token	=1299	// Do NOT change this line
 Offset	=E10
@@ -47356,7 +47356,7 @@ Width	=02
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tZQCAL                       1304
+Setup Question	= tZQCAL                       1203
 Help String	= tZQCAL
 Token	=129A	// Do NOT change this line
 Offset	=E56
@@ -47364,7 +47364,7 @@ Width	=04
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tXSR                         764
+Setup Question	= tXSR                         706
 Help String	= tXSR
 Token	=129B	// Do NOT change this line
 Offset	=E4E
@@ -47404,7 +47404,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tCKCKEH                      10
+Setup Question	= tCKCKEH                      9
 Help String	= tCKCKEH
 Token	=12A0	// Do NOT change this line
 Offset	=E35
@@ -47420,7 +47420,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRFM                         337
+Setup Question	= tRFM                         311
 Help String	= tRFM
 Token	=12A2	// Do NOT change this line
 Offset	=E46
@@ -47454,7 +47454,7 @@ Options	=*[00]Auto	// Move "*" to the desired Option
          [01]Fixed Mode
          [02]Dynamic Mode
 
-Setup Question	= RTL Init Value (CHA)         74
+Setup Question	= RTL Init Value (CHA)         72
 Help String	= Sets the initial RTL value (Round Trip Latency) for memroy channel. The higher value, the  looser round trip memory latency timing; the lower, the tighter.
 Token	=12A6	// Do NOT change this line
 Offset	=EB8
@@ -47462,7 +47462,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= RTL Init Value (CHB)         73
+Setup Question	= RTL Init Value (CHB)         71
 Help String	= Sets the initial RTL value (Round Trip Latency) for memroy channel. The higher value, the  looser round trip memory latency timing; the lower, the tighter.
 Token	=12A7	// Do NOT change this line
 Offset	=EB9
@@ -47470,7 +47470,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRTL (CHA/D0/R0)             71
+Setup Question	= tRTL (CHA/D0/R0)             69
 Help String	= tRTL (CHA/D0/R0)
 Token	=12A8	// Do NOT change this line
 Offset	=EB0
@@ -47502,7 +47502,7 @@ Width	=01
 BIOS Default	=<0> 
 Value	=<0>
 
-Setup Question	= tRTL (CHB/D0/R0)             71
+Setup Question	= tRTL (CHB/D0/R0)             69
 Help String	= tRTL (CHB/D0/R0)
 Token	=12AC	// Do NOT change this line
 Offset	=EB4
@@ -48374,7 +48374,7 @@ Options	=*[00]Disabled	// Move "*" to the desired Option
          [06]PPD DLL Off
          [FF]Auto
 
-Setup Question	= PDWN Idle Counter            1023
+Setup Question	= PDWN Idle Counter            967
 Help String	= Set PDWN Idle Counter item.
 Token	=130F	// Do NOT change this line
 Offset	=F22
@@ -48427,7 +48427,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tCL                          40
+// Setup Question	= tCL                          38
 // Help String	= CAS Latency (CL) is Column Address Strobe latency.   It isthe clock cycle required to access and read a particular column in the current row.   If you set this item smaller, system will run faster but might be more unstable.  Please set it depends on memory module.
 // Token	=1317	// Do NOT change this line
 // Offset	=D48
@@ -48435,7 +48435,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRCD                         40
+// Setup Question	= tRCD                         38
 // Help String	= tRCD is Timing of RAS to CAS Delay.   It is the clock cycle delay between activating Row Address Strobe   and the start to read Column Address Strobe.   If you set this item smaller,system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1318	// Do NOT change this line
 // Offset	=D4A
@@ -48451,7 +48451,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRP                          40
+// Setup Question	= tRP                          38
 // Help String	= tRP is Timing of RAS Precharge;   the clock cycle time required to switch from one Row Address to the next Row Address,   for example, switch internal memory banks.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=131A	// Do NOT change this line
 // Offset	=D4C
@@ -48459,7 +48459,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRAS                         80
+// Setup Question	= tRAS                         70
 // Help String	= tRAS is Timing of Row Address Strobe;   the timing of active to precharge delay between the precharge   and activation of row data access.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=131B	// Do NOT change this line
 // Offset	=D4E
@@ -48467,7 +48467,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRFC1                        764
+// Setup Question	= tRFC1                        706
 // Help String	= tRFC is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=131C	// Do NOT change this line
 // Offset	=E24
@@ -48475,7 +48475,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRFC2                        415
+// Setup Question	= tRFC2                        383
 // Help String	= tRFC is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=131D	// Do NOT change this line
 // Offset	=D50
@@ -48491,7 +48491,7 @@ Value	=<2>
 // BIOS Default	=1 
 // Value	=1	// Enabled = 1, Disabled = 0
 
-// Setup Question	= tRFCPB                       337
+// Setup Question	= tRFCPB                       311
 // Help String	= tRFCPB
 // Token	=131F	// Do NOT change this line
 // Offset	=E3A
@@ -48499,7 +48499,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tREFI                        5079
+// Setup Question	= tREFI                        4688
 // Help String	= tREFI is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1320	// Do NOT change this line
 // Offset	=E1A
@@ -48507,7 +48507,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tREFI                        5079
+// Setup Question	= tREFI                        4688
 // Help String	= tREFI is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1321	// Do NOT change this line
 // Offset	=D82
@@ -48515,7 +48515,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWR                          78
+// Setup Question	= tWR                          72
 // Help String	= tWR is Timing of Write Revocer;   the timing between effective write action and precharge the memory bank   to make sure data can write properly.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1322	// Do NOT change this line
 // Offset	=D52
@@ -48531,7 +48531,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWR                          78
+// Setup Question	= tWR                          72
 // Help String	= tWR is Timing of Write Revocer;   the timing between effective write action and precharge the memory bank   to make sure data can write properly.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1324	// Do NOT change this line
 // Offset	=DAA
@@ -48539,7 +48539,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWR_MR                       78
+// Setup Question	= tWR_MR                       72
 // Help String	= tWR_MR is Timing of Write Revocer at DRAM side.
 // Token	=1325	// Do NOT change this line
 // Offset	=EBF
@@ -48547,7 +48547,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWTR                         7
+// Setup Question	= tWTR                         6
 // Help String	= tWTR is Write to Read Delay;   the timing delay between write command and next read command at same memory bank arena.   It will affect read/write speed.   If you set this item smaller, system will run faster but might be more unstable .  Please set it depends on memory module.
 // Token	=1326	// Do NOT change this line
 // Offset	=D54
@@ -48555,7 +48555,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWTR_L                       26
+// Setup Question	= tWTR_L                       24
 // Help String	= DCLK delay from start of internal write transaction to internal read command.
 // Token	=1327	// Do NOT change this line
 // Offset	=D86
@@ -48571,7 +48571,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRRD_L                       13
+// Setup Question	= tRRD_L                       12
 // Help String	= ACTIVE to ACTIVE command period, different bank group.
 // Token	=1329	// Do NOT change this line
 // Offset	=D84
@@ -48579,7 +48579,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRTP                         19
+// Setup Question	= tRTP                         17
 // Help String	= tRTP is Read to Precharge Command Delay;   the delay timing between read command to precharge command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=132A	// Do NOT change this line
 // Offset	=D58
@@ -48595,7 +48595,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRTP                         20
+// Setup Question	= tRTP                         18
 // Help String	= tRTP is Read to Precharge Command Delay;   the delay timing between read command to precharge command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=132C	// Do NOT change this line
 // Offset	=DAC
@@ -48603,7 +48603,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRTP_MR                      20
+// Setup Question	= tRTP_MR                      18
 // Help String	= tRTP_MR is Read to Precharge Command Delay at DRAM side.
 // Token	=132D	// Do NOT change this line
 // Offset	=EC0
@@ -48619,7 +48619,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tCWL                         38
+// Setup Question	= tCWL                         36
 // Help String	= DRAM CAS# Write Latency
 // Token	=132F	// Do NOT change this line
 // Offset	=D5C
@@ -48635,7 +48635,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tCKE                         20
+// Setup Question	= tCKE                         18
 // Help String	= CKE minimum pluse width.
 // Token	=1331	// Do NOT change this line
 // Offset	=D5E
@@ -48651,7 +48651,7 @@ Value	=<2>
 // BIOS Default	=<15> 
 // Value	=<15>
 
-// Setup Question	= tCCD_L                       13
+// Setup Question	= tCCD_L                       12
 // Help String	= Back to back READ to READ CAS to CAS same bank group separation parameter.
 // Token	=1333	// Do NOT change this line
 // Offset	=D8A
@@ -48693,7 +48693,7 @@ Value	=<2>
 //         [01]Fixed Mode
 //         [02]Dynamic Mode
 
-// Setup Question	= tRDRDSG                      14
+// Setup Question	= tRDRDSG                      12
 // Help String	= Back to back READ to READ from different rank separation parameter.
 // Token	=1338	// Do NOT change this line
 // Offset	=D60
@@ -48789,7 +48789,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWRRDSG                      74
+// Setup Question	= tWRRDSG                      70
 // Help String	= Back to back WRITE to READ from different rank separation parameter.
 // Token	=1344	// Do NOT change this line
 // Offset	=D70
@@ -48797,7 +48797,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWRRDDG                      56
+// Setup Question	= tWRRDDG                      52
 // Help String	= Back to back WRITE to READ from different DIMM separation parameter.
 // Token	=1345	// Do NOT change this line
 // Offset	=D72
@@ -48845,7 +48845,7 @@ Value	=<2>
 // BIOS Default	=<5> 
 // Value	=<5>
 
-// Setup Question	= tWRPRE                       124
+// Setup Question	= tWRPRE                       116
 // Help String	= tWRPRE
 // Token	=134B	// Do NOT change this line
 // Offset	=D90
@@ -48853,7 +48853,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRDPRE                       19
+// Setup Question	= tRDPRE                       17
 // Help String	= tRDPRE
 // Token	=134C	// Do NOT change this line
 // Offset	=DA8
@@ -48877,7 +48877,7 @@ Value	=<2>
 // BIOS Default	=<2> 
 // Value	=<2>
 
-// Setup Question	= tXP                          20
+// Setup Question	= tXP                          18
 // Help String	= tXP
 // Token	=134F	// Do NOT change this line
 // Offset	=D80
@@ -48885,7 +48885,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tXPDLL                       63
+// Setup Question	= tXPDLL                       58
 // Help String	= tXPDLL
 // Token	=1350	// Do NOT change this line
 // Offset	=D92
@@ -48901,7 +48901,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRDPDEN                      48
+// Setup Question	= tRDPDEN                      46
 // Help String	= tRDPDEN
 // Token	=1352	// Do NOT change this line
 // Offset	=D96
@@ -48909,7 +48909,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWRPDEN                      124
+// Setup Question	= tWRPDEN                      116
 // Help String	= tWRPDEN
 // Token	=1353	// Do NOT change this line
 // Offset	=D98
@@ -48933,7 +48933,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tREFIx9                      44
+// Setup Question	= tREFIx9                      40
 // Help String	= tREFIx9
 // Token	=1356	// Do NOT change this line
 // Offset	=D9E
@@ -48957,7 +48957,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tMOD                         43
+// Setup Question	= tMOD                         40
 // Help String	= tMOD
 // Token	=1359	// Do NOT change this line
 // Offset	=DA4
@@ -48965,7 +48965,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tZQCS                        85
+// Setup Question	= tZQCS                        78
 // Help String	= tZQCS
 // Token	=135A	// Do NOT change this line
 // Offset	=DA6
@@ -48973,7 +48973,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tZQCAL                       1304
+// Setup Question	= tZQCAL                       1203
 // Help String	= tZQCAL
 // Token	=135B	// Do NOT change this line
 // Offset	=E52
@@ -48981,7 +48981,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tXSR                         764
+// Setup Question	= tXSR                         706
 // Help String	= tXSR
 // Token	=135C	// Do NOT change this line
 // Offset	=E4A
@@ -49021,7 +49021,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tCKCKEH                      10
+// Setup Question	= tCKCKEH                      9
 // Help String	= tCKCKEH
 // Token	=1361	// Do NOT change this line
 // Offset	=E34
@@ -49037,7 +49037,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRFM                         337
+// Setup Question	= tRFM                         311
 // Help String	= tRFM
 // Token	=1363	// Do NOT change this line
 // Offset	=E42
@@ -49071,7 +49071,7 @@ Value	=<2>
 //         [01]Fixed Mode
 //         [02]Dynamic Mode
 
-// Setup Question	= RTL Init Value (CHA)         74
+// Setup Question	= RTL Init Value (CHA)         72
 // Help String	= Sets the initial RTL value (Round Trip Latency) for memroy channel. The higher value, the  looser round trip memory latency timing; the lower, the tighter.
 // Token	=1367	// Do NOT change this line
 // Offset	=EB8
@@ -49079,7 +49079,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRTL (CHA/D0/R0)             71
+// Setup Question	= tRTL (CHA/D0/R0)             69
 // Help String	= tRTL (CHA/D0/R0)
 // Token	=1368	// Do NOT change this line
 // Offset	=EB0
@@ -49372,7 +49372,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tCL                          40
+// Setup Question	= tCL                          38
 // Help String	= CAS Latency (CL) is Column Address Strobe latency.   It isthe clock cycle required to access and read a particular column in the current row.   If you set this item smaller, system will run faster but might be more unstable.  Please set it depends on memory module.
 // Token	=138C	// Do NOT change this line
 // Offset	=DB2
@@ -49380,7 +49380,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRCD                         40
+// Setup Question	= tRCD                         38
 // Help String	= tRCD is Timing of RAS to CAS Delay.   It is the clock cycle delay between activating Row Address Strobe   and the start to read Column Address Strobe.   If you set this item smaller,system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=138D	// Do NOT change this line
 // Offset	=DB4
@@ -49396,7 +49396,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRP                          40
+// Setup Question	= tRP                          38
 // Help String	= tRP is Timing of RAS Precharge;   the clock cycle time required to switch from one Row Address to the next Row Address,   for example, switch internal memory banks.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=138F	// Do NOT change this line
 // Offset	=DB6
@@ -49404,7 +49404,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRAS                         80
+// Setup Question	= tRAS                         70
 // Help String	= tRAS is Timing of Row Address Strobe;   the timing of active to precharge delay between the precharge   and activation of row data access.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1390	// Do NOT change this line
 // Offset	=DB8
@@ -49412,7 +49412,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRFC1                        764
+// Setup Question	= tRFC1                        706
 // Help String	= tRFC is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1391	// Do NOT change this line
 // Offset	=E26
@@ -49420,7 +49420,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRFC2                        415
+// Setup Question	= tRFC2                        383
 // Help String	= tRFC is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1392	// Do NOT change this line
 // Offset	=DBA
@@ -49436,7 +49436,7 @@ Value	=<2>
 // BIOS Default	=1 
 // Value	=1	// Enabled = 1, Disabled = 0
 
-// Setup Question	= tRFCPB                       337
+// Setup Question	= tRFCPB                       311
 // Help String	= tRFCPB
 // Token	=1394	// Do NOT change this line
 // Offset	=E3E
@@ -49444,7 +49444,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tREFI                        5079
+// Setup Question	= tREFI                        4688
 // Help String	= tREFI is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1395	// Do NOT change this line
 // Offset	=E1E
@@ -49452,7 +49452,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tREFI                        5079
+// Setup Question	= tREFI                        4688
 // Help String	= tREFI is Timing of Refresh to Active/Refresh cycle time;   the amount of cycles timing between any Row Refresh command and the next Row Refresh command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1396	// Do NOT change this line
 // Offset	=DEC
@@ -49460,7 +49460,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWR                          78
+// Setup Question	= tWR                          72
 // Help String	= tWR is Timing of Write Revocer;   the timing between effective write action and precharge the memory bank   to make sure data can write properly.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1397	// Do NOT change this line
 // Offset	=DBC
@@ -49476,7 +49476,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWR                          78
+// Setup Question	= tWR                          72
 // Help String	= tWR is Timing of Write Revocer;   the timing between effective write action and precharge the memory bank   to make sure data can write properly.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=1399	// Do NOT change this line
 // Offset	=E14
@@ -49484,7 +49484,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWR_MR                       78
+// Setup Question	= tWR_MR                       72
 // Help String	= tWR_MR is Timing of Write Revocer at DRAM side.
 // Token	=139A	// Do NOT change this line
 // Offset	=EBF
@@ -49492,7 +49492,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWTR                         7
+// Setup Question	= tWTR                         6
 // Help String	= tWTR is Write to Read Delay;   the timing delay between write command and next read command at same memory bank arena.   It will affect read/write speed.   If you set this item smaller, system will run faster but might be more unstable .  Please set it depends on memory module.
 // Token	=139B	// Do NOT change this line
 // Offset	=DBE
@@ -49500,7 +49500,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWTR_L                       26
+// Setup Question	= tWTR_L                       24
 // Help String	= DCLK delay from start of internal write transaction to internal read command.
 // Token	=139C	// Do NOT change this line
 // Offset	=DF0
@@ -49516,7 +49516,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRRD_L                       13
+// Setup Question	= tRRD_L                       12
 // Help String	= ACTIVE to ACTIVE command period, different bank group.
 // Token	=139E	// Do NOT change this line
 // Offset	=DEE
@@ -49524,7 +49524,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRTP                         19
+// Setup Question	= tRTP                         17
 // Help String	= tRTP is Read to Precharge Command Delay;   the delay timing between read command to precharge command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=139F	// Do NOT change this line
 // Offset	=DC2
@@ -49540,7 +49540,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRTP                         20
+// Setup Question	= tRTP                         18
 // Help String	= tRTP is Read to Precharge Command Delay;   the delay timing between read command to precharge command.   If you set this item smaller, system will run faster but might be more unstable.   Please set it depends on memory module.
 // Token	=13A1	// Do NOT change this line
 // Offset	=E16
@@ -49548,7 +49548,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRTP_MR                      20
+// Setup Question	= tRTP_MR                      18
 // Help String	= tRTP_MR is Read to Precharge Command Delay at DRAM side.
 // Token	=13A2	// Do NOT change this line
 // Offset	=EC0
@@ -49564,7 +49564,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tCWL                         38
+// Setup Question	= tCWL                         36
 // Help String	= DRAM CAS# Write Latency
 // Token	=13A4	// Do NOT change this line
 // Offset	=DC6
@@ -49580,7 +49580,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tCKE                         20
+// Setup Question	= tCKE                         18
 // Help String	= CKE minimum pluse width.
 // Token	=13A6	// Do NOT change this line
 // Offset	=DC8
@@ -49596,7 +49596,7 @@ Value	=<2>
 // BIOS Default	=<15> 
 // Value	=<15>
 
-// Setup Question	= tCCD_L                       13
+// Setup Question	= tCCD_L                       12
 // Help String	= Back to back READ to READ CAS to CAS same bank group separation parameter.
 // Token	=13A8	// Do NOT change this line
 // Offset	=DF4
@@ -49638,7 +49638,7 @@ Value	=<2>
 //         [01]Fixed Mode
 //         [02]Dynamic Mode
 
-// Setup Question	= tRDRDSG                      14
+// Setup Question	= tRDRDSG                      12
 // Help String	= Back to back READ to READ from different rank separation parameter.
 // Token	=13AD	// Do NOT change this line
 // Offset	=DCA
@@ -49734,7 +49734,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWRRDSG                      74
+// Setup Question	= tWRRDSG                      70
 // Help String	= Back to back WRITE to READ from different rank separation parameter.
 // Token	=13B9	// Do NOT change this line
 // Offset	=DDA
@@ -49742,7 +49742,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWRRDDG                      56
+// Setup Question	= tWRRDDG                      52
 // Help String	= Back to back WRITE to READ from different DIMM separation parameter.
 // Token	=13BA	// Do NOT change this line
 // Offset	=DDC
@@ -49790,7 +49790,7 @@ Value	=<2>
 // BIOS Default	=<5> 
 // Value	=<5>
 
-// Setup Question	= tWRPRE                       124
+// Setup Question	= tWRPRE                       116
 // Help String	= tWRPRE
 // Token	=13C0	// Do NOT change this line
 // Offset	=DFA
@@ -49798,7 +49798,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRDPRE                       19
+// Setup Question	= tRDPRE                       17
 // Help String	= tRDPRE
 // Token	=13C1	// Do NOT change this line
 // Offset	=E12
@@ -49822,7 +49822,7 @@ Value	=<2>
 // BIOS Default	=<2> 
 // Value	=<2>
 
-// Setup Question	= tXP                          20
+// Setup Question	= tXP                          18
 // Help String	= tXP
 // Token	=13C4	// Do NOT change this line
 // Offset	=DEA
@@ -49830,7 +49830,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tXPDLL                       63
+// Setup Question	= tXPDLL                       58
 // Help String	= tXPDLL
 // Token	=13C5	// Do NOT change this line
 // Offset	=DFC
@@ -49846,7 +49846,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRDPDEN                      48
+// Setup Question	= tRDPDEN                      46
 // Help String	= tRDPDEN
 // Token	=13C7	// Do NOT change this line
 // Offset	=E00
@@ -49854,7 +49854,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tWRPDEN                      124
+// Setup Question	= tWRPDEN                      116
 // Help String	= tWRPDEN
 // Token	=13C8	// Do NOT change this line
 // Offset	=E02
@@ -49878,7 +49878,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tREFIx9                      44
+// Setup Question	= tREFIx9                      40
 // Help String	= tREFIx9
 // Token	=13CB	// Do NOT change this line
 // Offset	=E08
@@ -49902,7 +49902,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tMOD                         43
+// Setup Question	= tMOD                         40
 // Help String	= tMOD
 // Token	=13CE	// Do NOT change this line
 // Offset	=E0E
@@ -49910,7 +49910,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tZQCS                        85
+// Setup Question	= tZQCS                        78
 // Help String	= tZQCS
 // Token	=13CF	// Do NOT change this line
 // Offset	=E10
@@ -49918,7 +49918,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tZQCAL                       1304
+// Setup Question	= tZQCAL                       1203
 // Help String	= tZQCAL
 // Token	=13D0	// Do NOT change this line
 // Offset	=E56
@@ -49926,7 +49926,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tXSR                         764
+// Setup Question	= tXSR                         706
 // Help String	= tXSR
 // Token	=13D1	// Do NOT change this line
 // Offset	=E4E
@@ -49966,7 +49966,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tCKCKEH                      10
+// Setup Question	= tCKCKEH                      9
 // Help String	= tCKCKEH
 // Token	=13D6	// Do NOT change this line
 // Offset	=E35
@@ -49982,7 +49982,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRFM                         337
+// Setup Question	= tRFM                         311
 // Help String	= tRFM
 // Token	=13D8	// Do NOT change this line
 // Offset	=E46
@@ -50016,7 +50016,7 @@ Value	=<2>
 //         [01]Fixed Mode
 //         [02]Dynamic Mode
 
-// Setup Question	= RTL Init Value (CHB)         73
+// Setup Question	= RTL Init Value (CHB)         71
 // Help String	= Sets the initial RTL value (Round Trip Latency) for memroy channel. The higher value, the  looser round trip memory latency timing; the lower, the tighter.
 // Token	=13DC	// Do NOT change this line
 // Offset	=EB9
@@ -50024,7 +50024,7 @@ Value	=<2>
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= tRTL (CHB/D0/R0)             71
+// Setup Question	= tRTL (CHB/D0/R0)             69
 // Help String	= tRTL (CHB/D0/R0)
 // Token	=13DD	// Do NOT change this line
 // Offset	=EB4
@@ -50754,8 +50754,8 @@ Offset	=F04
 Width	=01
 BIOS Default	=[00]Auto 
 Options	=[00]Auto	// Move "*" to the desired Option
-         *[01]Disabled
-         [02]Enabled
+         [01]Disabled
+         *[02]Enabled
 
 Setup Question	= Read Timing Centering 1D JR
 Help String	= Read Timing Centering 1D JR Training
@@ -50773,8 +50773,8 @@ Token	=142E	// Do NOT change this line
 Offset	=F06
 Width	=01
 BIOS Default	=[00]Auto 
-Options	=[00]Auto	// Move "*" to the desired Option
-         *[01]Disabled
+Options	=*[00]Auto	// Move "*" to the desired Option
+         [01]Disabled
          [02]Enabled
 
 Setup Question	= Retrain Margin Check
@@ -51158,7 +51158,7 @@ Options	=*[00]Auto	// Move "*" to the desired Option
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= CPU VR CURRENT LIMIT             165A
+// Setup Question	= CPU VR CURRENT LIMIT             110A
 // Help String	= Set CPU VR CURRENT LIMIT.
 // Token	=1453	// Do NOT change this line
 // Offset	=187
@@ -52025,7 +52025,7 @@ BIOS Default	=[00]Disabled
 Options	=*[00]Disabled	// Move "*" to the desired Option
          [01]35W
 
-// Setup Question	= Long Duration Power Limit(W)     135W
+// Setup Question	= Long Duration Power Limit(W)     58W
 // Help String	= Sets the long duration (Power Limit 1) TDP power limit for CPU in Turbo Boost mode.  Max: 4096W  Min: 1W
 // Token	=1493	// Do NOT change this line
 // Offset	=17
@@ -52033,7 +52033,7 @@ Options	=*[00]Disabled	// Move "*" to the desired Option
 // BIOS Default	=<0> 
 // Value	=<0>
 
-// Setup Question	= Long Duration Maintained(s)      56s
+// Setup Question	= Long Duration Maintained(s)      28s
 // Help String	= Sets the maintaining time for "Long duration power Limit(W)".
 // Token	=1494	// Do NOT change this line
 // Offset	=1C
@@ -52065,7 +52065,7 @@ Options	=*[00]Disabled	// Move "*" to the desired Option
 //         [70]112
 //         [80]128
 
-// Setup Question	= Short Duration Power Limit(W)    150W
+// Setup Question	= Short Duration Power Limit(W)    89W
 // Help String	= Sets the short duration (Power Limit 2) TDP power limit for CPU in Turbo Boost mode.  Max: 4096W  Min: 1W
 // Token	=1495	// Do NOT change this line
 // Offset	=1E
@@ -52073,7 +52073,7 @@ Options	=*[00]Disabled	// Move "*" to the desired Option
 // BIOS Default	=<0> 
 // Value	=<0>
 
-Setup Question	= CPU Current Limit(A)             165A
+Setup Question	= CPU Current Limit(A)             110A
 Help String	= Sets maximum current limit of CPU package in Turbo Boost mode. When the current is over the specified limit value, the CPU will automatically reduce the core frequency for reducing the current.  Max: 512A  Min: 1A
 Token	=1496	// Do NOT change this line
 Offset	=F29
@@ -55235,3 +55235,12 @@ Options	=*[FF]Auto	// Move "*" to the desired Option
          [05]577 KHz
          [06]623 KHz
          [07]723 KHz
+
+Setup Question	= Boot Option #1
+Help String	= Sets the system boot order
+Token	=2344	// Do NOT change this line
+Offset	=144
+Width	=01
+BIOS Default	=[00]Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30 
+Options	=*[00]Windows Boot Manager (P6: WDC WDS120G2G0A-00JH30	// Move "*" to the desired Option
+         [12]Disabled
