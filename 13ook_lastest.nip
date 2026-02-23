@@ -1,13 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-16"?>
 <ArrayOfProfile>
   <Profile>
-    <ProfileName>Base Profile</ProfileName>
+    <ProfileName />
     <Executeables />
     <Settings>
       <ProfileSetting>
+        <SettingNameInfo />
+        <SettingID>523190</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
         <SettingNameInfo>Texture filtering - Trilinear optimization</SettingNameInfo>
         <SettingID>3066610</SettingID>
-        <SettingValue>1</SettingValue>
+        <SettingValue>0</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
       <ProfileSetting>
@@ -91,6 +97,12 @@
       <ProfileSetting>
         <SettingNameInfo>Anisotropic filtering mode</SettingNameInfo>
         <SettingID>282245910</SettingID>
+        <SettingValue>1</SettingValue>
+        <ValueType>Dword</ValueType>
+      </ProfileSetting>
+      <ProfileSetting>
+        <SettingNameInfo>CUDA Sysmem Fallback Policy</SettingNameInfo>
+        <SettingID>283962569</SettingID>
         <SettingValue>1</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
